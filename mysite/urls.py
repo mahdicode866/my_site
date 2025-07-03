@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from .views import mahdi
+from .views import d_test
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mahdi',mahdi)
-]
+    path('test',d_test),
+    ]
